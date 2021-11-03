@@ -1,0 +1,23 @@
+{
+	"HEADER_NAME": "Hi! My name is Martijn van Driest",
+	"HEADER_PLEASURE_TO_MEET": "It's a pleasure to meet you.",
+	"IM_A": "I'm a",
+	"GRAPHIC_DESIGNER": "Graphic Designer",
+	"BASED_IN": "based in the Netherlands.",
+	"NAVBAR": {
+		"SERVICES": "Services",
+		"ABOUT_ME": "About me",
+		"PORTFOLIO": "Portfolio",
+		"CONTACT": "Contact"
+	},
+	"PORTFOLIO": "Portfolio",
+	"PORTFOLIO_DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"SUBJECTS": "Subjects",
+	"SUBJECT_TYPES": {
+		"ALL": "All",
+		"WEB_DESIGN": "Web design",
+		"PACKAGING_DESIGN": "Packaging design",
+		"BRANDING": "Branding",
+		"VIDEO_EDITING": "Video editing"
+	}
+}
