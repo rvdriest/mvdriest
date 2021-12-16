@@ -18,11 +18,16 @@ module.exports = {
       },
       animation: {
         'slide-down': 'slidedown .2s linear',
+        'infinite-scroll': 'infinite-scroll 20s linear infinite',
       },
       keyframes: {
         slidedown: {
           '0%': { transform: 'translateY(-90px)' },
           '100%': { transform: 'translateY(0)' },
+        },
+        'infinite-scroll': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-50%)' },
         },
       },
       screens: {
@@ -44,5 +49,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

@@ -1,5 +1,5 @@
 <template>
-	<nav id="navbar" class="flex md:items-center justify-between flex-col md:flex-row top-0 w-full transition-transform px-8 py-6 lg:px-20 z-50" :class="{'bg-dark fixed animate-slide-down': sticky, 'absolute': !sticky, 'bg-dark': open, 'bg-dark': smalldark, 'md:bg-transparent': smalldark && !sticky}">
+	<nav id="navbar" class="flex md:items-center justify-between flex-col md:flex-row top-0 w-full transition-transform py-6 px-8 lg:px-32 z-50" :class="navClasses">
 		<div class="flex justify-between items-center md:mb-0" :class="{'mb-8': open}">
 			<div class="lg:w-36 w-28">
 				<NuxtLink :to="localePath('/')">
@@ -38,6 +38,27 @@ export default {
 		return {
 			open: false,
 			sticky: false,
+		}
+	},
+	computed: {
+		navClasses() {
+			// :class="{'bg-dark fixed animate-slide-down': sticky, 'absolute': !sticky, 'bg-dark': open || smalldark, 'md:bg-transparent': smalldark && !sticky && !open}"
+			const classes = [];
+
+			if(this.sticky) {
+				['bg-dark', 'fixed', 'animate-slide-down'].forEach(c => classes.push(c));
+			} else {
+				['absolute'].forEach(c => classes.push(c));
+			}
+
+			if(this.open || this.smalldark) {
+				classes.push('bg-dark');
+			}
+
+			if(this.smalldark && !this.sticky && !this.open) {
+				classes.push('md:bg-transparent');
+			}
+			return classes;
 		}
 	},
 	mounted() {
