@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{288:function(l,t,c){"use strict";c.r(t);var e=c(62),component=Object(e.a)({},(function(){var l=this,t=l.$createElement;return(l._self._c||t)("div",{staticClass:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4"},[l._t("default")],2)}),[],!1,null,null,null);t.default=component.exports}}]);
