@@ -7,22 +7,23 @@
 			<div class="mb-8 xl:mb-0">
 				<h3 class="text-2xl font-semibold">Contact</h3>
 				<ul class="space-y-2 mt-3">
-					<li>martijn.vandriest@gmail.com</li>
+					<li><a href="mailto:martijn.vandriest@gmail.com" class="hover:underline">martijn.vandriest@gmail.com</a></li>
 				</ul>
 			</div>
 			<div class="mb-8 xl:mb-0">
 				<h3 class="text-2xl font-semibold">Pagina's</h3>
 				<ul class="space-y-2 mt-3">
-					<li><NuxtLink :to="localePath('/')">Voorpagina</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/services')">Diensten</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/aboutme')">Over mij</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/projects')">Portfolio</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/')" class="hover:underline">Voorpagina</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/services')" class="hover:underline">Diensten</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/aboutme')" class="hover:underline">Over mij</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/projects')" class="hover:underline">Portfolio</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/contact')" class="hover:underline">Contact</NuxtLink></li>
 				</ul>
 			</div>
 			<div class="mb-8 md:mb-0">
 				<h3 class="text-2xl font-semibold">Overig</h3>
 				<ul class="space-y-2 mt-3">
-					<li>Curriculum vitae</li>
+					<li><a href="/CV.pdf" target="_blank" class="hover:underline">Curriculum vitae</a></li>
 				</ul>
 			</div>
 			<div>
@@ -62,7 +63,6 @@
 			<div class="w-full h-[1px] bg-gray-500 mt-16"></div>
 			<div class="flex justify-between items-center flex-wrap mt-4">
 				<p>&copy; 2021 Martijn van Driest</p>
-				<NuxtLink :to="localePath('/privacy')">Privacy verklaring</NuxtLink>
 			</div>
 		</div>
 	</Container>

@@ -2,10 +2,10 @@
 	<div class="relative h-full z-10 -mx-20">
 		<div class="overflow-y-hidden flex space-x-8 h-full -mx-6 px-[6.5rem]">
 			<div class="space-y-8 relative flex-1 top-16 animate-infinite-scroll" :style="{height: scrollableListHeight}">
-				<ProjectCarouselCard v-for="project in firstColumn" :key="project.slug" :project="project"/>
+				<ProjectCarouselCard v-for="(project, index) in firstColumn" :key="index" :project="project"/>
 			</div>
 			<div class="space-y-8 relative flex-1 top-32 animate-infinite-scroll" :style="{height: scrollableListHeight}">
-				<ProjectCarouselCard v-for="project in secondColumn" :key="project.slug" :project="project"/>
+				<ProjectCarouselCard v-for="(project, index) in secondColumn" :key="index" :project="project"/>
 			</div>
 		</div>
 		<div class="absolute top-0 left-0 right-0 w-full h-10 bg-gradient-to-b from-dark to-transparent -mr-20"></div>
@@ -37,7 +37,7 @@ export default {
 			const heightOfProject = 384;
 
 			return `calc((${heightOfProject}px * ${amountOfProjects}) + ((${amountOfProjects} - 1) * 2rem) + 2rem)`;
-		}
+		},
 	}
 }
 </script>

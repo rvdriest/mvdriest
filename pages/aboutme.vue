@@ -5,10 +5,13 @@
 			<h2 class="text-white font-semibold text-3xl my-4">Gedreven door creativiteit</h2>
 			<p class="text-gray-400 max-w-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</DarkHeader>
-		<section class="h-64 w-full -mt-16">
+		<section class="h-72 w-full -mt-16">
 			<Container>
-				<div class="w-full bg-primary h-64 flex items-center justify-center px-4">
-					<h2 class="text-gray-700 font-semibold text-2xl text-center">Mijn naam is Martijn van Driest. Ik ben 19 jaar oud</h2>
+				<div class="w-full bg-primary h-72 flex items-center justify-center px-4 relative">
+					<div class="absolute inset-0 w-full h-full">
+						<img src="~/assets/images/martijn-2.jpg" alt="Martijn" class="w-full h-full object-cover">
+					</div>
+					<h2 class="text-white font-semibold text-2xl text-center z-10">Mijn naam is Martijn van Driest. Ik ben 19 jaar oud</h2>
 				</div>
 			</Container>
 		</section>

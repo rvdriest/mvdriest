@@ -2,7 +2,7 @@
   <div>
     <header class="max-h-screen h-[42rem] lg:h-screen min-h-[35rem] bg-dark flex flex-col relative">
       <!-- <Navbar id="navbar" :sticky="fixedNavbar" class="px-8 py-6 lg:px-20"/> -->
-      <Navbar transparent/>
+      <Navbar transparent smalldark/>
       <div class="flex h-full px-8 lg:px-32">
         <div class="flex-1 hidden lg:block">
           <ProjectsCarousel :projects="posts"/>
@@ -21,8 +21,8 @@
       </div>
     </header>
     <WhoAmI />
-    <HowIHelp />
-    <Container class="py-24">
+    <LazyHowIHelp />
+    <LazyContainer class="py-24">
       <div class="flex items-center flex-wrap mb-4">
         <h2 class="text-3xl font-semibold mr-4 mb-4">Projecten</h2>
         <NuxtLink :to="localePath('/projects')" class="px-8 h-12 rounded flex border-[3px] items-center group whitespace-nowrap mb-4">Zie alle <svg viewBox="0 0 19.538 13.886" xmlns="http://www.w3.org/2000/svg" class="h-3 ml-2 group-hover:-rotate-45 transition-transform ease-in-out">
@@ -32,8 +32,8 @@
       <ProjectsGrid>
         <ProjectCard v-for="post in posts" :key="post.slug" :post="post"/>
       </ProjectsGrid>
-    </Container>
-    <Footer />
+    </LazyContainer>
+    <LazyFooter />
   </div>
 </template>
 

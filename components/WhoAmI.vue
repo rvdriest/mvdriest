@@ -7,7 +7,7 @@
 					<p class="text-gray-600">Hoi! Mijn naam is Martijn van Driest. Leuk om u te ontmoeten. Ik ben een grafisch ontwerper uit Nederland. Als kleine jongen was ik altijd al geïnteresseerd in design en video. Sindsdien ben ik begonnen met groeien naar een hoger niveau en wist ik dit als mijn baan wilde.</p>
 				</div>
 				<div class="mt-4 sm:mt-0">
-					<img src="~/assets/icons/book.svg" alt="Brush" class="mb-4 w-16 h-16">
+					<img src="~/assets/icons/book.svg" alt="Brush" class="mb-4 w-16 h-16 p-2">
 					<h2 class="font-semibold text-xl mb-4">Leergierig</h2>
 					<p class="text-gray-600">Mijn sterkste vaardigheid is dat ik snel kan leren, zodat ik ideeën goed kan ontwikkelen. Ik leerde bijvoorbeeld 
 3 Adobe programma's in 2 jaar.</p>

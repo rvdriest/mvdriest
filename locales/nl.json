@@ -21,5 +21,15 @@
 		"PACKAGING_DESIGN": "Packaging design",
 		"BRANDING": "Branding",
 		"VIDEO_EDITING": "Video editing"
+	},
+	"CONTACT": {
+		"MAKE_CONTACT": "Contact opnemen?",
+		"MAKE_CONTACT_LONG": "Laten we contact maken en elkaar leren kennen",
+		"EMAIL_LABEL": "Email",
+		"MESSAGE_LABEL": "Uw bericht",
+		"MESSAGE_PLACEHOLDER": "Type uw bericht hier.",
+		"SEND": "Verstuur",
+		"SUCCESS": "Bedankt voor uw bericht. Ik zal zo spoedig mogelijk contact met u opnemen.",
+		"ERROR": "Er is iets fout gegaan. Probeer het later nog eens."
 	}
 }

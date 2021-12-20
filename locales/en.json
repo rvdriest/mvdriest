@@ -21,5 +21,15 @@
 		"PACKAGING_DESIGN": "Packaging design",
 		"BRANDING": "Branding",
 		"VIDEO_EDITING": "Video editing"
+	},
+	"CONTACT": {
+		"MAKE_CONTACT": "Make contact?",
+		"MAKE_CONTACT_LONG": "Lets get in touch and discuss your project.",
+		"EMAIL_LABEL": "Email",
+		"MESSAGE_LABEL": "Your message",
+		"MESSAGE_PLACEHOLDER": "Type your message here.",
+		"SEND": "Send",
+		"SUCCESS": "Your message has been sent. Thank you for contacting me.",
+		"ERROR": "There was an error sending your message. Please try again later."
 	}
 }
