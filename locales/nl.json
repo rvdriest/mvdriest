@@ -12,16 +12,62 @@
 		"PORTFOLIO": "Portfolio",
 		"CONTACT": "Contact"
 	},
+	"PROJECT_DETAILS": {
+		"DATE": "Datum",
+		"CLIENT": "Client",
+		"THEME": "Thema"
+	},
 	"PORTFOLIO": "Portfolio",
-	"PORTFOLIO_DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"PORTFOLIO_DESCRIPTION": "Hieronder vindt u een selectie van mijn werk.",
 	"SUBJECTS": "Onderwerpen",
+	"SUBJECT_HEADERS": {
+		"DESIGN": "Design",
+		"VIDEO": "Video"
+	},
 	"SUBJECT_TYPES": {
 		"ALL": "Allemaal",
 		"WEB_DESIGN": "Web design",
 		"PACKAGING_DESIGN": "Packaging design",
 		"BRANDING": "Branding",
-		"VIDEO_EDITING": "Video editing"
+		"VIDEO_EDITING": "Video editing",
+		"PROTOTYPING": "Prototyping"
 	},
+	"SERVICES": {
+		"INFO": "Ik bied een aantal diensten aan:",
+		"WEB_DESIGN_INFO": "Wanneer de consument uw website bezoekt geeft dat een eerste indruk van uw bedrijf.",
+		"BRANDING_INFO": "Goede branding zorgt ervoor dat jouw merk de juiste associaties oproept bij uw klanten.",
+		"VIDEO_EDITING_INFO": "Met video zorg je voor een directe verbinding met de klant en zorg voor vertrouwen.",
+		"PACKAGING_DESIGN_INFO": "Met een goede vormgeving van uw product zal u uitspringen tussen de andere producten.",
+		"PROTOTYPING_INFO": "Met een goede prototype krijgt u een goede indruk van uw web/app design"
+	},
+	"ABOUT_ME": {
+		"DRIVEN_BY_CREATIVITY": "Gedreven door creativiteit",
+		"DRIVEN_BY_CREATIVITY_INFO": "Ik ben een creatief persoon die zich bezig houdt met o.a. grafische ontwerpen.",
+		"MY_NAME": "Mijn naam is Martijn van Driest en ben 19 jaar oud.",
+		"HOW_I_STARTED": "Hoe ik ben begonnen",
+		"HOW_I_STARTED_DESCRIPTION": "Ik beoefen dit vak voor ongeveer 5 jaar met veel plezier. Ik ben altijd geïnteresseerd geweest in Design. Ik ben begonnen met het helpen van mensen voor social media posts. Sind dien begon ik te groeien tot een hoger niveau en wist ik dat dit mijn baan zou worden later.",
+		"MY_SPECIALITIES": "Mijn specialiteiten",
+		"MY_SPECIALITIES_DESCIPRTION": "Mijn best specialiteit is dat ik snel kan leren en dat ik daardoor beter ideëen kan uitwerken. Ik heb bijvoorbeeld 3 Adobe programma's in 2 jaar geleerd zonder enige voorkennis. Zo kwam ik erachter dat dit echt mijn passie is.",
+		"WHO_AM_I": "Wie ben ik?",
+		"INTRODUCTION": "Hoi! Mijn naam is Martijn van Driest. Leuk om u te ontmoeten. Ik ben een grafisch ontwerper uit Nederland. Als kleine jongen was ik altijd al geïnteresseerd in design en video. Sindsdien ben ik begonnen met groeien naar een hoger niveau en wist ik dit als mijn baan wilde.",
+		"STUDIOUS": "Leergierig",
+		"STUDIOUS_DESCRIPTION": "Mijn sterkste vaardigheid is dat ik snel kan leren, zodat ik ideeën goed kan ontwikkelen. Ik leerde bijvoorbeeld 3 Adobe programma's in 2 jaar.",
+		"DRIVEN": "Gedreven",
+		"DRIVEN_DESCRIPTION": "Ik ben altijd gedreven. Als ik ergens aan begin wil ik er alles aan doen om het beste resultaat naar boven te krijgen.",
+		"FUN_FACTS": "Leuke feitjes",
+		"GOES_TO_EXTREMES": "Gaat tot het uiterste",
+		"LOVES_GOOD_COFFEE": "Houdt van lekkere koffie!",
+		"FOOTBALL_FAVORITE_SPORT": "Voetbal is mijn favoriete sport",
+		"PLAY_REGULARLY_TENNIS": "Ik speel regelmatig tennis",
+		"DESIGN_IS_MY_PASSION": "Design is mijn passie"
+	},
+	"HOW_I_HELP": {
+		"TITLE": "Hoe kan ik u helpen?",
+		"DESCRIPTION": "Als een fullstack designer sta ik open voor veel ideeën. Ik ben er om uw bedrijf op de juiste plek te plaatsen in de digitale wereld op een professionele manier. Een goede huisstijl is essentieel om de juiste uitstraling te geven."
+	},
+	"PROJECTS": "Projecten",
+	"SEE_ALL": "Zie alle",
+	"SEE_MORE": "Zie meer",
 	"CONTACT": {
 		"MAKE_CONTACT": "Contact opnemen?",
 		"MAKE_CONTACT_LONG": "Laten we contact maken en elkaar leren kennen",
@@ -31,5 +77,12 @@
 		"SEND": "Verstuur",
 		"SUCCESS": "Bedankt voor uw bericht. Ik zal zo spoedig mogelijk contact met u opnemen.",
 		"ERROR": "Er is iets fout gegaan. Probeer het later nog eens."
+	},
+	"FOOTER": {
+		"CONTACT": "Contact",
+		"PAGES": "Pagina's",
+		"HOMEPAGE": "Voorpagina",
+		"OTHER": "Overig",
+		"MY_CV": "Mijn CV"
 	}
 }

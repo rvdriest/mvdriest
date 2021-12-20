@@ -12,16 +12,62 @@
 		"PORTFOLIO": "Portfolio",
 		"CONTACT": "Contact"
 	},
+	"PROJECT_DETAILS": {
+		"DATE": "Date",
+		"CLIENT": "Client",
+		"THEME": "Theme"
+	},
 	"PORTFOLIO": "Portfolio",
-	"PORTFOLIO_DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"PORTFOLIO_DESCRIPTION": "Here you can find some of my work.",
 	"SUBJECTS": "Subjects",
+	"SUBJECT_HEADERS": {
+		"DESIGN": "Design",
+		"VIDEO": "Video"
+	},
 	"SUBJECT_TYPES": {
 		"ALL": "All",
 		"WEB_DESIGN": "Web design",
 		"PACKAGING_DESIGN": "Packaging design",
 		"BRANDING": "Branding",
-		"VIDEO_EDITING": "Video editing"
+		"VIDEO_EDITING": "Video editing",
+		"PROTOTYPING": "Prototyping"
 	},
+	"SERVICES": {
+		"INFO": "I offer a number of services",
+		"WEB_DESIGN_INFO": "When the consumer visits your website, it gives a first impression of your company.",
+		"BRANDING_INFO": "Good branding ensures that your brand evokes the right associations with your customers. ",
+		"VIDEO_EDITING_INFO": "With video you ensure a direct connection with the customer and ensure trust.",
+		"PACKAGING_DESIGN_INFO": "With a good design of your product you will stand out among other products.",
+		"PROTOTYPING_INFO": "With a good prototype you get a good impression of your web/app design."
+	},
+	"ABOUT_ME": {
+		"DRIVEN_BY_CREATIVITY": "Driven by creativity",
+		"DRIVEN_BY_CREATIVITY_INFO": "I am a creative person who is always looking for new ways to improve my skills.",
+		"MY_NAME": "My name is Martijn van Driest and I'm 19 years old.",
+		"HOW_I_STARTED": "How I've started",
+		"HOW_I_STARTED_DESCRIPTION": "I have been practicing this profession for about 5 years with great pleasure. I have always been interested in Design. I started helping people for social media posts. Since then I started to grow to a higher level and I knew that this would be my job later on.",
+		"MY_SPECIALITIES": "My specialities",
+		"MY_SPECIALITIES_DESCIPRTION": "My best specialty is that I can learn quickly and because of that I can develop ideas better. For example, I learned 3 Adobe programs in 2 years without any prior knowledge. That's how I found out that this is really my passion.",
+		"WHO_AM_I": "Who am I?",
+		"INTRODUCTION": "I am a Graphic Designer based in the Netherlands. I have been working in the field of design since the age of 12. I have a passion for creating beautiful and functional designs. I am a creative person who likes to work with people and to create something that makes them happy.",
+		"STUDIOUS": "Studious",
+		"STUDIOUS_DESCRIPTION": "I am a studious person who likes to learn new things and to keep up with the latest trends. I am always looking for new ways to improve my skills and knowledge.",
+		"DRIVEN": "Driven",
+		"DRIVEN_DESCRIPTION": "I am a driven person who likes to work hard and to achieve my goals. I am always looking for new ways to improve myself and my work.",
+		"FUN_FACTS": "Fun facts",
+		"GOES_TO_EXTREMES": "Goes to extremes",
+		"LOVES_GOOD_COFFEE": "Loves good coffee",
+		"FOOTBALL_FAVORITE_SPORT": "Football is my favorite sport",
+		"PLAY_REGULARLY_TENNIS": "I play tennis regularly",
+		"DESIGN_IS_MY_PASSION": "Design is my passion"
+	},
+	"HOW_I_HELP": {
+		"TITLE": "How can I help?",
+		"DESCRIPTION": "I can help you with all kinds of design projects. I can help you with web design, packaging design, branding, video editing and more. I can also help you with your business needs, marketing and social media."
+	},
+	"PROJECTS": "Projects",
+	"SEE_ALL": "See all",
+	"SEE_MORE": "See more",
 	"CONTACT": {
 		"MAKE_CONTACT": "Make contact?",
 		"MAKE_CONTACT_LONG": "Lets get in touch and discuss your project.",
@@ -31,5 +77,12 @@
 		"SEND": "Send",
 		"SUCCESS": "Your message has been sent. Thank you for contacting me.",
 		"ERROR": "There was an error sending your message. Please try again later."
+	},
+	"FOOTER": {
+		"CONTACT": "Contact",
+		"PAGES": "Pages",
+		"HOMEPAGE": "Homepage",
+		"OTHER": "Other",
+		"MY_CV": "My CV"
 	}
 }

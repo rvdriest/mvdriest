@@ -16,7 +16,7 @@
 		</DarkHeader>
 		<div>
 			<Container class="py-24">
-				<h2 class="text-3xl font-semibold mb-8">Projecten</h2>
+				<h2 class="text-3xl font-semibold mb-8">{{$t('PROJECTS')}}</h2>
 				<ProjectsGrid>
 					<ProjectCard v-for="post in filteredPosts" :key="post.slug" :post="post"/>
 				</ProjectsGrid>

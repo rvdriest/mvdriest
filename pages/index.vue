@@ -24,8 +24,8 @@
     <LazyHowIHelp />
     <LazyContainer class="py-24">
       <div class="flex items-center flex-wrap mb-4">
-        <h2 class="text-3xl font-semibold mr-4 mb-4">Projecten</h2>
-        <NuxtLink :to="localePath('/projects')" class="px-8 h-12 rounded flex border-[3px] items-center group whitespace-nowrap mb-4">Zie alle <svg viewBox="0 0 19.538 13.886" xmlns="http://www.w3.org/2000/svg" class="h-3 ml-2 group-hover:-rotate-45 transition-transform ease-in-out">
+        <h2 class="text-3xl font-semibold mr-4 mb-4">{{$t('PROJECTS')}}</h2>
+        <NuxtLink :to="localePath('/projects')" class="px-8 h-12 rounded flex border-[3px] items-center group whitespace-nowrap mb-4">{{$t('SEE_ALL')}} <svg viewBox="0 0 19.538 13.886" xmlns="http://www.w3.org/2000/svg" class="h-3 ml-2 group-hover:-rotate-45 transition-transform ease-in-out">
 <path transform="translate(.25 -4.424)" d="M12.82,4.875a.675.675,0,0,0-.959.95l4.865,4.865H.672A.668.668,0,0,0,0,11.362a.676.676,0,0,0,.672.681H16.725L11.86,16.9a.689.689,0,0,0,0,.959.672.672,0,0,0,.959,0l6.017-6.017a.661.661,0,0,0,0-.95Z" fill="gray" stroke="gray" stroke-width=".5"/>
 </svg></NuxtLink>
       </div>

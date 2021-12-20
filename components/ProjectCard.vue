@@ -5,7 +5,7 @@
 		</div>
 		<p class="text-gray-500 font-medium mt-5">{{post.type}}</p>
 		<h3 class="font-semibold text-2xl mt-2 mb-3">{{post.title}}</h3>
-		<NuxtLink :to="localePath(`/projects/${post.slug}`)" class="bg-secondary text-white px-6 py-2 inline-block rounded font-medium">Zie meer</NuxtLink>
+		<NuxtLink :to="localePath(`/projects/${post.slug}`)" class="bg-secondary text-white px-6 py-2 inline-block rounded font-medium">{{$t('SEE_MORE')}}</NuxtLink>
 	</div>
 </template>
 

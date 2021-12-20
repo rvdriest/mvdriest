@@ -4,7 +4,7 @@
 			<h1 class="text-white font-semibold text-3xl">{{post.title}}</h1>
 			<p class="text-gray-400 my-4 max-w-lg">{{post.description}}</p>
 			<div class="flex flex-wrap mt-4">
-				<ProjectDetail title="Datum" :value="date" class="mr-16 my-4">
+				<ProjectDetail :title="$t('PROJECT_DETAILS.DATE')" :value="date" class="mr-16 my-4">
 					<svg data-name="clock (1)" viewBox="0 0 33.573 33.573" xmlns="http://www.w3.org/2000/svg" class="h-full">
 						<g transform="translate(15.486 7.789)" data-name="Group 520">
 							<g data-name="Group 519">
@@ -18,7 +18,7 @@
 						</g>
 					</svg>
 				</ProjectDetail>
-				<ProjectDetail title="Client" :value="post.client" class="mr-16 my-4">
+				<ProjectDetail :title="$t('PROJECT_DETAILS.CLIENT')" :value="post.client" class="mr-16 my-4">
 					<svg viewBox="0 0 34.483 35.073" xmlns="http://www.w3.org/2000/svg" class="h-full">
 						<g transform="translate(-89.883 -133.19)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3" data-name="Group 543">
 							<path transform="translate(0 -6.068)" d="m91.383 174.33a15.742 15.742 0 0 1 31.483 0" data-name="Path 511"/>
@@ -26,7 +26,7 @@
 						</g>
 					</svg>
 				</ProjectDetail>
-				<ProjectDetail title="Theme" :value="post.type" class="my-4">
+				<ProjectDetail :title="$t('PROJECT_DETAILS.THEME')" :value="post.type" class="my-4">
 					<svg viewBox="0 0 31.057 36.573" xmlns="http://www.w3.org/2000/svg" class="h-full">
 						<g transform="translate(-45.778 -28.833)" fill="none" stroke="#fff" stroke-width="3" data-name="Group 544">
 							<path transform="translate(-37.03 -78.592)" d="m94.5 130.56" stroke-linecap="round" stroke-linejoin="round" data-name="Path 512"/>
@@ -63,11 +63,12 @@ export default {
 		date() {
 			const options = { year: 'numeric', month: 'long',  day: 'numeric'};
 			if(this.$i18n.locale === 'nl') {
+				console.log(this.post.createdAt);
 				return new Date(this.post.createdAt).toLocaleDateString('nl-NL', options)
 			}else if(this.$i18n.locale === 'en') {
-				return new Date(this.post.createdAt).toLocaleDateString('en-EN', options)
+				return new Date(this.post.createdAt).toLocaleDateString('en-GB', options)
 			}else {
-				return new Date(this.post.createdAt).toLocaleDateString('en-EN', options)
+				return new Date(this.post.createdAt).toLocaleDateString('en-GB', options)
 			}
 		}
 	}

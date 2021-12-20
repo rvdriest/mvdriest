@@ -5,25 +5,25 @@
 				<Logo />
 			</div>
 			<div class="mb-8 xl:mb-0">
-				<h3 class="text-2xl font-semibold">Contact</h3>
+				<h3 class="text-2xl font-semibold">{{$t('FOOTER.CONTACT')}}</h3>
 				<ul class="space-y-2 mt-3">
 					<li><a href="mailto:martijn.vandriest@gmail.com" class="hover:underline">martijn.vandriest@gmail.com</a></li>
 				</ul>
 			</div>
 			<div class="mb-8 xl:mb-0">
-				<h3 class="text-2xl font-semibold">Pagina's</h3>
+				<h3 class="text-2xl font-semibold">{{$t('FOOTER.PAGES')}}</h3>
 				<ul class="space-y-2 mt-3">
-					<li><NuxtLink :to="localePath('/')" class="hover:underline">Voorpagina</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/services')" class="hover:underline">Diensten</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/aboutme')" class="hover:underline">Over mij</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/projects')" class="hover:underline">Portfolio</NuxtLink></li>
-					<li><NuxtLink :to="localePath('/contact')" class="hover:underline">Contact</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/')" class="hover:underline">{{$t('FOOTER.HOMEPAGE')}}</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/services')" class="hover:underline">{{$t('NAVBAR.SERVICES')}}</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/aboutme')" class="hover:underline">{{$t('NAVBAR.ABOUT_ME')}}</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/projects')" class="hover:underline">{{$t('NAVBAR.PORTFOLIO')}}</NuxtLink></li>
+					<li><NuxtLink :to="localePath('/contact')" class="hover:underline">{{$t('NAVBAR.CONTACT')}}</NuxtLink></li>
 				</ul>
 			</div>
 			<div class="mb-8 md:mb-0">
-				<h3 class="text-2xl font-semibold">Overig</h3>
+				<h3 class="text-2xl font-semibold">{{$t('FOOTER.OTHER')}}</h3>
 				<ul class="space-y-2 mt-3">
-					<li><a href="/CV.pdf" target="_blank" class="hover:underline">Curriculum vitae</a></li>
+					<li><a href="/CV.pdf" target="_blank" class="hover:underline">{{$t('FOOTER.MY_CV')}}</a></li>
 				</ul>
 			</div>
 			<div>
