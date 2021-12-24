@@ -1,15 +1,15 @@
 ---
 catagory: BRANDING
 title: FCUHeadlines Instagram
-description: 'FCUHeadlines is een Instagram account'
+description: 'FCUHeadlines is an Instagram account'
 client: FCUHeadlines
 type: Branding
 image: 'https://i.imgur.com/mkM4HWX.jpg'
 ---
 
-### De uitdaging
+### The challenge
 
-FCUHeadlines is een Instagram account over FC Utrecht. In 2020 kwam de eigenaar van het account naar mij toe om te vertellen dat hij een FC Utrecht fan account heeft en hij die graag zou willen professionaliseren. Ik ben de uitdaging aangegaan
+FCUHeadlines is an Instagram account about FC Utrecht. In 2020 the owner of the account came to me to tell that he has an FC Utrecht fan account and that he would like to professionalize it. I took up the challenge.
 
 [instagram.com/fcuheadlines](https://www.instagram.com/fcuheadlines)
 
@@ -29,9 +29,9 @@ FCUHeadlines is een Instagram account over FC Utrecht. In 2020 kwam de eigenaar 
 
 ---
 
-### Het resultaat
+### Result
 
-In opdracht van FCUHeadlines ben ik op zoek gegaan naar een passend huisstijl voor het Instagram account. Dat heb ik in samenhang met de eigenaar gedaan. Ik maak elke week een matchday animatie en een resultaat post doormiddel van een zelfgemaakte template.
+Commissioned by FCUHeadlines, I went looking for a suitable corporate identity for the Instagram account. I did that in conjunction with the owner. I make a matchday animation every week and post a result using a homemade template.
 
 <div class="flex space-x-2">
     <figure>
