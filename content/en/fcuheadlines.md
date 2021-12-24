@@ -29,7 +29,7 @@ FCUHeadlines is an Instagram account about FC Utrecht. In 2020 the owner of the 
 
 ---
 
-### Result
+### The result
 
 Commissioned by FCUHeadlines, I went looking for a suitable corporate identity for the Instagram account. I did that in conjunction with the owner. I make a matchday animation every week and post a result using a homemade template.
 

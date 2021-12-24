@@ -3,7 +3,7 @@ catagory: WEB
 title: Papendorpse run
 description: 'Papendorpse run is een georganiseerde run'
 client: Papendorpse run
-type: Web design
+type: Website
 image: 'https://i.imgur.com/KnCuVpj.jpg'
 ---
 
