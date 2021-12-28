@@ -13,7 +13,7 @@ FCUHeadlines is an Instagram account about FC Utrecht. In 2020 the owner of the 
 
 [instagram.com/fcuheadlines](https://www.instagram.com/fcuheadlines)
 
-<div class="flex space-x-2">
+<div class="image-row not-prose">
      <figure>
 <iframe width="250" height="312,5" src="https://www.youtube.com/embed/_nhtn7VCXLw?modestbranding=1" title="YouTube video player" frameborder="0" modestbranding="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>Resultaat</figcaption>
@@ -33,13 +33,13 @@ FCUHeadlines is an Instagram account about FC Utrecht. In 2020 the owner of the 
 
 Commissioned by FCUHeadlines, I went looking for a suitable corporate identity for the Instagram account. I did that in conjunction with the owner. I make a matchday animation every week and post a result using a homemade template.
 
-<div class="flex space-x-2">
+<div class="image-row not-prose">
     <figure>
         <img width="300" height="300" 
             src="https://i.imgur.com/7cr6Ndj.jpg"
             alt=""
         />
-<figcaption>Logo</figcaption>
+    <figcaption>Logo</figcaption>
     </figure>
     <figure>
       <iframe width="300" height="300" src="https://www.youtube.com/embed/FJmrm1KUI2c?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -12,18 +12,29 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mvdriest',
+    titleTemplate: '%s - MVDriest',
     htmlAttrs: {
       lang: 'nl',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Hallo! Mijn naam is Martijn van Driest. Aangenaam kennis te maken. Ik ben een Graphic Designer uit Nederland.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og-type', property: 'og:type', content: 'website' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
       {
         rel: 'preconnect',
         href: 'https://fonts.googleapis.com',

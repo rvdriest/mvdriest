@@ -44,6 +44,11 @@ export default {
 			errorMessage: '',
 		}
 	},
+	head() {
+    return {
+      title: this.$t('PAGE_TITLE.CONTACT'),
+    }
+  },
 	methods: {
 		async sendMail() {
 			try {
@@ -70,6 +75,6 @@ export default {
 				this.errorMessage = this.$t('CONTACT.ERROR');
 			}
 		}
-	}
+	},
 }
 </script>

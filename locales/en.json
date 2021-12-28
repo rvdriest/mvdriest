@@ -6,6 +6,13 @@
 	"IM_A": "I'm a",
 	"GRAPHIC_DESIGNER": "Graphic Designer",
 	"BASED_IN": "based in the Netherlands.",
+	"PAGE_TITLE": {
+		"HOME": "Homepage",
+		"SERVICES": "Services",
+		"ABOUT_ME": "About me",
+		"PORTFOLIO:": "Portfolio",
+		"CONTACT": "Contact"
+	},
 	"NAVBAR": {
 		"SERVICES": "Services",
 		"ABOUT_ME": "About me",

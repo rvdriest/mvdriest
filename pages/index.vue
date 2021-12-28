@@ -39,21 +39,38 @@
 
 <script>
 export default {
-    async asyncData({ $content, app, error }) {
-        const posts = await $content(app.i18n.locale)
-            .only(["catagory", "title", "type", "slug", "image"])
-            .sortBy("createdAt", "asc")
-            .limit(4)
-            .fetch()
-            .catch(() => error({ statusCode: 404, message: "Page not found!" }));
-        return {
-            posts
-        };
-    },
-    data() {
-        return {
-            fixedNavbar: false,
-        };
-    },
+  async asyncData({ $content, app, error }) {
+      const posts = await $content(app.i18n.locale)
+          .only(["catagory", "title", "type", "slug", "image"])
+          .sortBy("createdAt", "asc")
+          .limit(4)
+          .fetch()
+          .catch(() => error({ statusCode: 404, message: "Page not found!" }));
+      return {
+          posts
+      };
+  },
+  data() {
+      return {
+          fixedNavbar: false,
+      };
+  },
+  head() {
+    return {
+      title: this.$t('PAGE_TITLE.HOME'),
+      meta: [
+        {
+          hid: 'og-title',
+          property: 'og:title',
+          content: this.$t('PAGE_TITLE.HOME'),
+        },
+        {
+          hid: 'og-description',
+          property: 'og:description',
+          content: `${this.$t('HEADER_NAME')} ${this.$t('IM_A')} ${this.$t('GRAPHIC_DESIGNER')} ${this.$t('BASED_IN')}`
+        },
+      ]
+    }
+  },
 }
 </script>

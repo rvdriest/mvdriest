@@ -13,15 +13,15 @@ De Papendorpse run is een georganiseerde run in Utrecht. via Het Bureau (School)
 
 [papendorpserun.nl](https://www.papendorpserun.nl/)
 
-<div class="flex space-x-2">
-     <figure>
-        <img width="300" height="300"
+<div class="image-row not-prose">
+     <figure class="image-row-figure fix-height-image">
+        <img
             src="https://media0.giphy.com/media/2glXeBT1xMCNZoBuKS/giphy.gif?cid=790b76112fa6cf36a24cd58150cbed6a0be24726b5ddd0b6&rid=giphy.gif&ct=g"
             alt=""
         />
     </figure>
-    <figure>
-        <img width="300" height="300" 
+    <figure class="image-row-figure fix-height-image">
+        <img 
             src="https://i.imgur.com/Q0ILmDD.jpg"
             alt=""
         />
@@ -34,21 +34,21 @@ De Papendorpse run is een georganiseerde run in Utrecht. via Het Bureau (School)
 
 Om de nieuwe website van de Papendorpse run tot zijn recht te laten komen heb ik een website ontworpen in Adobe XD in de huisstijl van de Papendorpse run. Via wordpress kan de Papendorpse run zelf content uploaden of aanpassen.
 
-<div class="flex space-x-2">
-     <figure>
+<div class="image-row not-prose">
+     <figure class="image-row-figure">
         <img width="700"
             src="https://i.imgur.com/QwnKgJl.jpg"
             alt=""
         />
     </figure>
-    <figure>
+    <figure class="image-row-figure">
         <img width="700"
             src="https://i.imgur.com/FSUlEoG.jpg"
             alt=""
         />
     </figure>
 </div>
-        <img width="1000"
-            src="https://i.imgur.com/veY6R1h.jpg"
-            alt=""
-        />
+<img width="1000"
+    src="https://i.imgur.com/veY6R1h.jpg"
+    alt=""
+/>
