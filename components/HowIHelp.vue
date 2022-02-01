@@ -4,7 +4,7 @@
 			<div>
 				<h2 class="font-semibold text-4xl">{{$t('HOW_I_HELP.TITLE')}}</h2>
 				<p class="text-gray-300 my-4">{{$t('HOW_I_HELP.DESCRIPTION')}}</p>
-				<NuxtLink :to="localePath('/projects')" class="text-primary font-semibold text-lg inline-flex items-center border-b-2 border-transparent hover:border-primary group transition-all duration-300 ease-in-out">{{$t('NAVBAR.SERVICES')}}<img src="~/assets/images/right-arrow.png" class="ml-2 group-hover:-rotate-45 transition-transform ease-in-out duration-500"/></NuxtLink>
+				<NuxtLink :to="localePath('/services')" class="text-primary font-semibold text-lg inline-flex items-center border-b-2 border-transparent hover:border-primary group transition-all duration-300 ease-in-out">{{$t('NAVBAR.SERVICES')}}<img src="~/assets/images/right-arrow.png" class="ml-2 group-hover:-rotate-45 transition-transform ease-in-out duration-500"/></NuxtLink>
 			</div>
 			<div class="flex space-x-20">
 				<div>
