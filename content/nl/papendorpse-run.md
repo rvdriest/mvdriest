@@ -13,15 +13,15 @@ De Papendorpse run is een georganiseerde run in Utrecht. via Het Bureau (School)
 
 [papendorpserun.nl](https://www.papendorpserun.nl/)
 
-<div class="flex space-x-2">
+<div class="flex flex-row space-x-2">
      <figure>
-        <img width="300" height="300"
+        <img width="350" height="350"
             src="https://media0.giphy.com/media/2glXeBT1xMCNZoBuKS/giphy.gif?cid=790b76112fa6cf36a24cd58150cbed6a0be24726b5ddd0b6&rid=giphy.gif&ct=g"
             alt=""
         />
     </figure>
     <figure>
-        <img width="300" height="300" 
+        <img width="350" height="350" 
             src="https://i.imgur.com/Q0ILmDD.jpg"
             alt=""
         />
