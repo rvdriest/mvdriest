@@ -44,6 +44,11 @@ export default {
 			selected: 'ALL', // ALL, WEB, PACKAGING, BRANDING, VIDEO
 		}
 	},
+	head() {
+    return {
+      title: this.$t('PAGE_TITLE.PORTFOLIO'),
+    }
+  },
 	computed: {
 		filteredPosts() {
 			return this.posts.filter(this.filterPost);

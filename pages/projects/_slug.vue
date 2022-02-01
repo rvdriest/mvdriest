@@ -59,11 +59,22 @@ export default {
 				post
 			}
 	},
+	head() {
+    return {
+      title: this.post.title,
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: this.post.description
+				},
+			]
+    }
+  },
 	computed: {
 		date() {
 			const options = { year: 'numeric', month: 'long',  day: 'numeric'};
 			if(this.$i18n.locale === 'nl') {
-				console.log(this.post.createdAt);
 				return new Date(this.post.createdAt).toLocaleDateString('nl-NL', options)
 			}else if(this.$i18n.locale === 'en') {
 				return new Date(this.post.createdAt).toLocaleDateString('en-GB', options)
@@ -74,3 +85,28 @@ export default {
 	}
 }
 </script>
+
+<style lang="postcss">
+	.image-row {
+    @apply flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2;
+  }
+  .image-row-figure {
+    @apply w-full md:w-auto;
+  }
+	.image-row-figure img {
+		@apply object-cover;
+	}
+  .fix-height-image img {
+    @apply w-full h-72;
+  }
+	.not-prose figcaption {
+		@apply text-[.9em] leading-[1.55555556] mt-1 md:mt-4 mb-4 md:mb-0 text-[#6b7280];
+	}
+	.video-wrapper {
+		@apply relative pb-[56.25%] h-0;
+	}
+
+	.video-wrapper iframe {
+		@apply absolute top-0 left-0 w-full h-full;
+	}
+</style>

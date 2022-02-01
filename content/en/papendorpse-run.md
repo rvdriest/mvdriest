@@ -13,15 +13,15 @@ The Papendorpse run is an organized run in Utrecht. I was commissioned by Het Bu
 
 [papendorpserun.nl](https://www.papendorpserun.nl/)
 
-<div class="flex space-x-2">
-     <figure>
-        <img width="300" height="300"
+<div class="image-row not-prose">
+     <figure class="image-row-figure fix-height-image">
+        <img
             src="https://media0.giphy.com/media/2glXeBT1xMCNZoBuKS/giphy.gif?cid=790b76112fa6cf36a24cd58150cbed6a0be24726b5ddd0b6&rid=giphy.gif&ct=g"
             alt=""
         />
     </figure>
-    <figure>
-        <img width="300" height="300" 
+    <figure class="image-row-figure fix-height-image">
+        <img
             src="https://i.imgur.com/Q0ILmDD.jpg"
             alt=""
         />
@@ -32,23 +32,23 @@ The Papendorpse run is an organized run in Utrecht. I was commissioned by Het Bu
 
 ### The result
 
- To do justice to the new website of the Papendorpse run, I designed a website in Adobe XD in the house style of the Papendorpse run. The Papendorpse run can upload or adjust content itself via wordpress.
+To do justice to the new website of the Papendorpse run, I designed a website in Adobe XD in the house style of the Papendorpse run. The Papendorpse run can upload or adjust content itself via wordpress.
 
-<div class="flex space-x-2">
-     <figure>
+<div class="image-row not-prose">
+     <figure class="image-row-figure">
         <img width="700"
             src="https://i.imgur.com/QwnKgJl.jpg"
             alt=""
         />
     </figure>
-    <figure>
+    <figure class="image-row-figure">
         <img width="700"
             src="https://i.imgur.com/FSUlEoG.jpg"
             alt=""
         />
     </figure>
 </div>
-        <img width="1000"
-            src="https://i.imgur.com/veY6R1h.jpg"
-            alt=""
-        />
+<img width="1000"
+    src="https://i.imgur.com/veY6R1h.jpg"
+    alt=""
+/>
