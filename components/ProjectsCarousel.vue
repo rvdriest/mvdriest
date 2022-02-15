@@ -8,7 +8,7 @@
 				<ProjectCarouselCard v-for="(project, index) in secondColumn" :key="index" :project="project"/>
 			</div>
 		</div>
-		<div class="absolute top-0 left-0 right-0 w-full h-10 bg-gradient-to-b from-dark to-transparent -mr-20"></div>
+		<div class="absolute top-0 left-0 right-0 w-full h-24 bg-gradient-to-b from-dark to-transparent -mr-20"></div>
 		<div class="absolute bottom-0 left-0 right-0 w-full h-36 bg-gradient-to-t from-dark to-transparent -mr-40"></div>
 	</div>
 </template>

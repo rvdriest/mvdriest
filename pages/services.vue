@@ -20,7 +20,7 @@
 						</g>
 					</svg>
 				</ServiceCard>
-				<ServiceCard :title="$t('SUBJECT_TYPES.VIDEO_EDITING')" :content="$t('SERVICES.VIDEO_EDITING_INFO')">
+				<!-- <ServiceCard :title="$t('SUBJECT_TYPES.VIDEO_EDITING')" :content="$t('SERVICES.VIDEO_EDITING_INFO')">
 					<svg viewBox="0 0 50 58" xmlns="http://www.w3.org/2000/svg" class="h-14">
 						<g transform="translate(50) rotate(90)" fill="none" data-name="Polygon 4">
 							<path d="M24.675,7.457a5,5,0,0,1,8.65,0l20.32,35.034A5,5,0,0,1,49.32,50H8.68a5,5,0,0,1-4.325-7.509Z"/>
@@ -44,7 +44,7 @@
 							<path d="m27.5 9.7442-18.686 31.256h37.371l-18.686-31.256m0-9.7442 27.5 46h-55l27.5-46z" fill="#f5ff00"/>
 						</g>
 					</svg>
-				</ServiceCard>
+				</ServiceCard> -->
 			</div>
 		</Container>
 		<Footer />

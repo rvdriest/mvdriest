@@ -11,17 +11,17 @@
 					<p class="text-primary font-semibold">{{$t('SUBJECT_HEADERS.DESIGN')}}</p>
 					<ul class="space-y-2 mt-2">
 						<li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.WEB_DESIGN')}}</NuxtLink></li>
-						<li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.PACKAGING_DESIGN')}}</NuxtLink></li>
+						<!-- <li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.PACKAGING_DESIGN')}}</NuxtLink></li> -->
 						<li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.BRANDING')}}</NuxtLink></li>
-						<li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.PROTOTYPING')}}</NuxtLink></li>
+						<!-- <li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.PROTOTYPING')}}</NuxtLink></li> -->
 					</ul>
 				</div>
-				<div>
+				<!-- <div>
 					<p class="text-primary font-semibold">{{$t('SUBJECT_HEADERS.VIDEO')}}</p>
 					<ul class="space-y-2 mt-2">
 						<li><NuxtLink :to="localePath('/projects')" class="font-semibold">{{$t('SUBJECT_TYPES.VIDEO_EDITING')}}</NuxtLink></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</Container>

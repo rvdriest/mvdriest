@@ -8,7 +8,7 @@
 				<ul class="flex flex-wrap">
 					<li class="mr-4 my-2"><CatagoryButton :active="isSelected('ALL')" @click="setSelected('ALL')">{{$t('SUBJECT_TYPES.ALL')}}</CatagoryButton></li>
 					<li class="mr-4 my-2"><CatagoryButton :active="isSelected('WEB')" @click="setSelected('WEB')">{{$t('SUBJECT_TYPES.WEB_DESIGN')}}</CatagoryButton></li>
-					<li class="mr-4 my-2"><CatagoryButton :active="isSelected('PACKAGING')" @click="setSelected('PACKAGING')">{{$t('SUBJECT_TYPES.PACKAGING_DESIGN')}}</CatagoryButton></li>
+					<!-- <li class="mr-4 my-2"><CatagoryButton :active="isSelected('PACKAGING')" @click="setSelected('PACKAGING')">{{$t('SUBJECT_TYPES.PACKAGING_DESIGN')}}</CatagoryButton></li> -->
 					<li class="mr-4 my-2"><CatagoryButton :active="isSelected('BRANDING')" @click="setSelected('BRANDING')">{{$t('SUBJECT_TYPES.BRANDING')}}</CatagoryButton></li>
 					<li class="mr-4 my-2"><CatagoryButton :active="isSelected('VIDEO')" @click="setSelected('VIDEO')">{{$t('SUBJECT_TYPES.VIDEO_EDITING')}}</CatagoryButton></li>
 				</ul>
