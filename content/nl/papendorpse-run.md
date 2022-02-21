@@ -9,7 +9,7 @@ image: 'https://i.imgur.com/KnCuVpj.jpg'
 
 ### De uitdaging
 
-De Papendorpse run is een georganiseerde run in Utrecht. via Het Bureau (School) heb ik de opdracht gekregen om een website te maken voor de Papendorpse run in Wordpress. Ik ben de uitdaging aangegaan.
+De Papendorpse run is een georganiseerde run in Utrecht. Via Het Bureau (School) heb ik de opdracht gekregen om een website te maken voor de Papendorpse run in Wordpress. Ik ben de uitdaging aangegaan.
 
 [papendorpserun.nl](https://www.papendorpserun.nl/)
 

@@ -9,7 +9,7 @@ image: 'https://i.imgur.com/3KWsqbp.jpg'
 
 ### De uitdaging
 
-In opdracht van Het Bureau heb ik een opdracht gekregen om een giftcard te maken voor Het Bureau. Ik heb geprobeerd om het te laten uitstralen als een cadeau in de huisstijl van Het Bureau.
+In opdracht van Het Bureau heb ik de opdracht gekregen om een giftcard te maken voor Het Bureau. Ik heb geprobeerd om het te laten uitstralen als een cadeau in de huisstijl van Het Bureau.
 
 <img width="1000"
             src="https://i.imgur.com/NGnkAHh.jpg"
