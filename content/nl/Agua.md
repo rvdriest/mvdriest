@@ -21,7 +21,7 @@ In opdracht van Agua heb ik de opdracht gekregen om een gehele branding te desig
 ### Het resultaat
 
 Ik heb met motiverende quotes op de labels geprobeerd om de aandacht aan te trekken tussen de schappen.
-Met de kleurstelling heb ik gekozen voor verschillende tinten blauw en paars. Ik heb dat gedaan, omdat het in het oog uitspringt en staat voor calmte.  
+Met de kleurstelling heb ik gekozen voor verschillende tinten blauw en paars. Ik heb dat gedaan, omdat het in het oog uitspringt en staat voor kalmte.  
 
 <div class="image-row not-prose">
      <figure class="image-row-figure">
