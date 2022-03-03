@@ -4,7 +4,7 @@ title: Papendorpse Run
 description: 'The Papendorpse run is an organized run'
 client: Papendorpse Run
 type: Website
-image: 'https://images.unsplash.com/photo-1633285718296-69cbc3b36343?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80'
+image: 'https://i.imgur.com/KnCuVpj.jpg'
 ---
 
 ### The challenge
